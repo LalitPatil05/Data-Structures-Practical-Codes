@@ -15,18 +15,21 @@ int QDel(){
 }
 void GetGraph(int vsize){
     vertices = vsize;
-    cout<<"Enter Adjency Matrix..!!"<<endl;
+    cout<<"Enter Adjency Matrix : "<<endl;
     for(i=0;i<vertices;i++){
-        for(j=0;j<vertices;j++)
+        for(j=0;j<vertices;j++){
         cin>>mat[i][j];
+        }
     }
 }
 void ShowGraph(){
     cout<<"Adjency Matrix is...!!"<<endl;
-    for(i=0;i<vertices;i++)
-    for(j=0;j<vertices;j++)
-    cout<<mat[i][j]<<" ";
-    cout<<"\t";
+    for(i=0;i<vertices;i++){
+        for(j=0;j<vertices;j++){
+            cout<<mat[i][j]<<"\t";
+         }
+        cout<<endl;
+    }
 }
 void SetNodes(){
     for(i=0;i<vertices;i++){
@@ -43,18 +46,17 @@ void BFS(int n){
             }
         }
         n=QDel();
-    }
-    while(f<=r);
+    }while(f<=r);
 }
 //main code...
 int main(){
     int size;
     int start;
-    cout<<"Enter Size of Node..!! :";
+    cout<<"Enter Size of Node :";
     cin>>size;
     GetGraph(size);
     ShowGraph();
-    cout<<"Enter Start Node..!! :";
+    cout<<"Enter Start Node :";
     cin>>start;
     BFS(start);
     return 0;
