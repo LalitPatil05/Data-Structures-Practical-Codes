@@ -1,0 +1,79 @@
+* Full form of AVL Tree : -
+	Adelson , Velski , Landis .................
+
+Binary Search Tree Conditions :-
+	1) In which Left Subtree or Left child is less than or equal to Root node.
+	2) In which Right Subtree or Right Child is Greater than or equal to Root node.
+
+* Threaded Binary Tree :- 
+	In Which the Null Pointer are replaced to the Special appropriate value called as thread.
+	A Threaded Binary Tree is a In which NULL Pointer can replace to the special pointer i.e thread
+	is called as threaded binary tree. in which special header pointer is used..
+the newly designed structure is :  LThread -> Lchild -> Data -> Rchild -> RThread...........
+Lthread is 0 when null pointer and Lthread is 1 when Normal pointer.
+Rthread is 0 when null pointer and rthread is 1 when Normal pointer.
+
+Node Outdergree is 0 then it can say the SINK NODE.
+Node Indegree is 0 then it can say the SOURCE NODE.
+
+Types of AVL Rotation :-
+1) Left Rotation
+2) Right Rotation
+3) Left-Right Rotation
+4) Right-Left Rotation
+
+
+* Time Complexity's of Sorting Techniques :- 
+1) Bubble Sort : - O(n)
+2) Insertion Sort :- O(n^2)
+3) Selection Sort :- O(n*2)
+4) Merge Sort : - O(N Log N)
+5) Quick Sort :- O(N Log N)
+6) Heap Sort :- O(N Log N)
+
+
+Types of Hashing Function :- 
+1) Mid Square Method
+2) Folding
+3) Shifting
+4) Dividing
+
+*Hashing Function : - It is Translator in which the key value is replaced to the array indiced such 
+			function is called as Hashing Function.
+
+* Collision :- when the hash function maps to different keys to the same table address is called as Collision is occured.
+
+* Collision Resoulation Technique :-
+Types of overflow handeling techniques :- 
+1) overflow chaining
+2) prime area spill.
+
+
+* Graph Representation Techniques :- 
+1) Adjency Matrix Representation
+2) Adjency List Representation
+3) Threaded Representation
+
+*Graph Traveesing Techniques :-
+1) Breadth First Search (BFS) :- Queue
+2) Depth First Search (DFS) :- Stack
+
+* Tree Representation Techniques :-
+ 1) Array Representation
+ 2) Link Representation
+
+* Tree Traversing Techniques :- 
+1) Preorder traversal
+2) Inorder Traversal
+3) Postorder Traversal
+
+*Types of Binary Tree
+1) Binary Tree
+2) Strictly binary Tree
+3) Complete Binary Tree
+4) Skewed Binary Tree
+5) Extended Binary Tree.
+
+B Tree : -
+	B tree was Developed in 1972 by bayer and McCrieght. 
+commonly used in database system.
